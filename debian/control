@@ -1,4 +1,4 @@
-Source: php-tokenstream
+Source: php-token-stream
 Section: php
 Priority: optional
 Maintainer: Arthur Gautier (Open Web Solutions) <arthur@ows.fr>
@@ -7,9 +7,9 @@ Standards-Version: 3.9.1
 Homepage: https://github.com/sebastianbergmann/php-token-stream
 Vcs-Git: git://github.com/sebastianbergmann/php-token-stream.git
 
-Package: php-tokenstream
+Package: php-token-stream
 Section: php
 Architecture: all
 Depends: php5-cli, ${misc:Depends}
 Description: Wrapper library around PHP's tokenizer extension
- Wrapper library around PHP's tokenizer extension
+ PHP Wrapper library around tokenizer extension 
