@@ -1,0 +1,5 @@
+php-tokenstream (1.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Arthur Gautier (Open Web Solutions) <arthur@ows.fr>  Mon, 31 Jan 2011 11:50:01 +0100

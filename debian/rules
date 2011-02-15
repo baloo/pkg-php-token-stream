@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+
+update-config::
+	cp phptok.php phptok
+
+reverse-config::
+	rm -f phptok
+
+common-binary-predeb-arch::
+	find ./ | xargs touch $1
+
+common-binary-predeb-indep::
+	find ./ | xargs touch $1
